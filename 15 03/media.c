@@ -9,7 +9,7 @@ int main (){
     scanf("%f", &nota2);
     
     media = (nota1 + nota2) /2;
-    printf("resultado: %f", media);
+    printf("resultado: %.2f", media);
     
     return 0;
 }
