@@ -11,10 +11,25 @@ int main (){
     media = (nota1 + nota2) /2;
     printf("resultado: %f \n", media);
     
-    if(media < 6 ){
-        printf("reprovado");
+    if(media < 7 ){
+        float rec, maiornota = 0;
+        printf("reprovado \n");
+        printf("digite rec: ");
+        scanf("%f", &rec);
+        if(nota1 > nota2){
+            maiornota = nota1;
+        } else{
+            maiornota = nota2;
+        }
+        media = (maiornota + rec) / 2;
+        printf("resutado: %.2f \n", media);
+        if (media < 7){
+            printf("reprovado do mesmo jeito \n");
+        }else{
+            printf("aprovado \n");
+        }
     }else{
-        printf("aprovado");
+        printf("aprovado \n");
     }
     return 0;
 }
