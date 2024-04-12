@@ -16,8 +16,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/geova/OneDrive/Documents/GitHub/C",
-      "program": "c:/Users/geova/OneDrive/Documents/GitHub/C/build/Debug/outDebug",
+      "cwd": "c:/Users/bergm/OneDrive/Documentos/GitHub/C/12-04",
+      "program": "c:/Users/bergm/OneDrive/Documentos/GitHub/C/12-04/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
