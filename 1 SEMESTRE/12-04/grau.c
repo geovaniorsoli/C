@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int main()
-{
+int main (){
 
     int opcao;
     float grau, resposta;
@@ -13,16 +12,14 @@ int main()
     printf("\n digite sua temperatura:");
     scanf("%f", &grau);
 
-    if (opcao == 1)
-    {
-        resposta = (grau * 9 / 5) + 32;
-    }
-    else
-    {
-        resposta = (grau - 32) * 5 / 9;
+    if(opcao == 1){
+        resposta = (grau * 9/5) + 32;
+    }else{
+        resposta = (grau - 32) * 5/9;
     }
 
     printf("Sua resposta convertida: %.2f", resposta);
+
 
     return 0;
 }
