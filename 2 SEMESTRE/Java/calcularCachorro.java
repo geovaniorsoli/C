@@ -3,15 +3,12 @@ public class calcularCachorro {
     private double cachorro2;
 
     public calcularCachorro(double cachorro1, double cachorro2) {
-        this.cachorro1;
-        this.cachorro2;
+        this.cachorro1 = 10;
+        this.cachorro2 = 20;
     }
 
     public double calcularDoisCachorros(){
         return (cachorro1 + cachorro2) / 2;
     }
 
-    public static void main(String[] args) {
-        
-    }
 }
